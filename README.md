@@ -142,6 +142,19 @@ Memory region         Used Size  Region Size  %age Used
 └── README.md
 ```
 
-## 七、验收视频
+## 七、验收截图与视频
 
-`demo.mp4`：CLion 编译通过 → 启动烧录 → 开发板三灯 500 ms 间隔循环点亮。
+### 7.1 CubeMX 引脚配置（User Label）
+
+![CubeMX 中 PA0/PA1/PA2 的 User Label 为 LED0/LED1/LED2](docs/cubemx_pins.png)
+
+### 7.2 上板运行效果
+
+![三灯 500 ms 流水灯](docs/board_running.jpg)
+
+### 7.3 验收视频
+
+| 文件 | 内容 | 时长 |
+|---|---|---|
+| `demo2.mp4` | CubeMX 配置 LED0/LED1/LED2 → CLion 编译通过 → 烧录到开发板 | 25 s |
+| `demo1.mp4` | 开发板上三灯 500 ms 间隔循环点亮 | 8 s |
